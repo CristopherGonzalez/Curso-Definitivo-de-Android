@@ -6,4 +6,8 @@
     <string name="hint_login">Login</string>
     <string name="hint_have_account">Have account?, </string>
     <string name="hint_create_account">click here</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_user">User</string>
+    <string name="hint_conf_password">Confirm Password</string>
 </resources>

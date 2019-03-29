@@ -5,4 +5,8 @@
     <string name="hint_login">Entrar</string>
     <string name="hint_have_account">¿Tienes una cuenta?, </string>
     <string name="hint_create_account">crea una aquí</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Nombre</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_conf_password">Confirmar Contraseña</string>
 </resources>
