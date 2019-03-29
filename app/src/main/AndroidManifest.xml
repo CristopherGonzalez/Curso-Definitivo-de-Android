@@ -12,9 +12,11 @@
         <activity
             android:name=".TestActivity"
             android:label="@string/title_activity_test"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".view.RegisterAccountActivity" >
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.RegisterAccountActivity"
+            android:parentActivityName=".LoginActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LoginActivity"/>
         </activity>
         <activity android:name=".LoginActivity">
             <intent-filter>
