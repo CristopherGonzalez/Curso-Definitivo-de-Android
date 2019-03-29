@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextSize">22sp</dimen>
+    <dimen name="paddingHorizontalLogin">32dp</dimen>
+    <dimen name="textHaveAccount">18sp</dimen>
+</resources>

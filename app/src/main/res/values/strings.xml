@@ -3,4 +3,6 @@
     <string name="hint_username">Nombre de Usuario</string>
     <string name="hint_password">Contraseña</string>
     <string name="hint_login">Entrar</string>
+    <string name="hint_have_account">¿Tienes una cuenta?, </string>
+    <string name="hint_create_account">crea una aquí</string>
 </resources>
