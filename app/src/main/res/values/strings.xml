@@ -11,4 +11,7 @@
     <string name="hint_conf_password">Confirmar Contraseña</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_register_account">Crea tu cuenta</string>
+    <string name="hint_dias">10</string>
+    <string name="hint_texto_dias">Dias atras</string>
+    <string name="hint_status">Estado</string>
 </resources>

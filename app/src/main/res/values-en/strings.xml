@@ -12,4 +12,7 @@
     <string name="hint_conf_password">Confirm Password</string>
     <string name="title_activity_test">TestActivity</string>
     <string name="title_activity_register_account">Create account</string>
+    <string name="hint_dias">10</string>
+    <string name="hint_texto_dias">Days</string>
+    <string name="hint_status">Status</string>
 </resources>
