@@ -64,6 +64,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/hint_login"
                     android:theme="@style/RaisedButtonDark"
+                    android:onClick="goHomeAccount"
                     />
                 <RelativeLayout
                     android:layout_width="match_parent"

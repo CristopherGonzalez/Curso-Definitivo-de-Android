@@ -15,4 +15,7 @@
     <string name="hint_dias">10</string>
     <string name="hint_texto_dias">Days</string>
     <string name="hint_status">Status</string>
+    <string name="hint_home">Home</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_details">Details</string>
 </resources>

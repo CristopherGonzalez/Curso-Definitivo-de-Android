@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.aysenti.tiapp.view.ContainerActivity;
 import com.aysenti.tiapp.view.RegisterAccountActivity;
 
 public class LoginActivity extends AppCompatActivity {
@@ -17,6 +18,11 @@ public class LoginActivity extends AppCompatActivity {
     public void goCreateAccount(View view){
         //Puede ser igual LoginActivity.this en el primer parametro
         Intent intent = new Intent(this, RegisterAccountActivity.class);
+        startActivity(intent);
+    }
+    public void goHomeAccount(View view){
+        //Puede ser igual LoginActivity.this en el primer parametro
+        Intent intent = new Intent(this, ContainerActivity.class);
         startActivity(intent);
     }
 }

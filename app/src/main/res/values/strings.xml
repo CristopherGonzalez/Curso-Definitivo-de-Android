@@ -14,4 +14,10 @@
     <string name="hint_dias">10</string>
     <string name="hint_texto_dias">Dias atras</string>
     <string name="hint_status">Estado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_home">Home</string>
+    <string name="hint_search">Buscar</string>
+    <string name="hint_details">Detalle</string>
 </resources>
