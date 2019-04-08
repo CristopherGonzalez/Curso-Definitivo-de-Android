@@ -20,4 +20,5 @@
     <string name="hint_home">Home</string>
     <string name="hint_search">Buscar</string>
     <string name="hint_details">Detalle</string>
+    <string name="title_activity_main">MainActivity</string>
 </resources>
