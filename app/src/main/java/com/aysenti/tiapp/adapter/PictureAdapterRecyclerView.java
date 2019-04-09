@@ -53,7 +53,7 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
 
         public PictureViewHolder(View itemView){
             super(itemView);
-            pictureCard = itemView.findViewById(R.id.text_name_card);
+            pictureCard = itemView.findViewById(R.id.image_card);
             nameCard = itemView.findViewById(R.id.text_name_card);
             timeCard = itemView.findViewById(R.id.text_nro_dias_card);
             LikeNumberCard = itemView.findViewById(R.id.like_number_card);
