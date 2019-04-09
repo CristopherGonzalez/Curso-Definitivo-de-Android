@@ -10,13 +10,24 @@
     <include layout="@layout/actionbar_toolbar"/>
 
     <LinearLayout
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/dimen_60dp"
-        android:layout_marginLeft="@dimen/dimen_8dp"
-        android:layout_marginRight="@dimen/dimen_8dp">
-        <include layout="@layout/cardview_component"></include>
+        android:paddingTop="@dimen/dimen_60dp"
+        android:paddingLeft="@dimen/dimen_8dp"
+        android:paddingRight="@dimen/dimen_8dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/home_recyclerview">
+
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
     </LinearLayout>
 
     <android.support.design.widget.FloatingActionButton
@@ -25,5 +36,5 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@drawable/icons8_computer_16" />
+        app:srcCompat="@drawable/icons8_doctors_folder_80" />
 </FrameLayout>

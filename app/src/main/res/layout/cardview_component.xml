@@ -20,14 +20,15 @@ cardview:cardCornerRadius="@dimen/dimen_4dp">
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_gravity="bottom"
-            android:paddingLeft="@dimen/paddingHorizontalLogin"
+            android:paddingLeft="@dimen/dimen_8dp"
+            android:background="@color/colorBackgroundCardLight"
             android:paddingBottom="@dimen/paddingHorizontalLogin">
             <TextView
                 android:id="@+id/text_name_card"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/hint_name"
-                android:textColor="@android:color/black"
+                android:textColor="@android:color/white"
                 android:textStyle="bold"
                 android:textSize="@dimen/editTextSize"
                 />
@@ -40,17 +41,19 @@ cardview:cardCornerRadius="@dimen/dimen_4dp">
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hint_dias"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textStyle="bold"
+                    android:textSize="@dimen/dimen_18dp"
                     />
                 <TextView
                     android:id="@+id/text_dias_card"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hint_texto_dias"
-                    android:textColor="@android:color/black"
+                    android:textColor="@android:color/white"
                     android:textStyle="bold"
                     android:layout_marginLeft="@dimen/dimen_4dp"
+                    android:textSize="@dimen/dimen_18dp"
                     />
             </LinearLayout>
 
@@ -70,7 +73,9 @@ cardview:cardCornerRadius="@dimen/dimen_4dp">
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/hint_status"
-                    android:textColor="@android:color/black"/>
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/dimen_18dp"
+                    />
            </LinearLayout>
         </LinearLayout>
     </FrameLayout>
