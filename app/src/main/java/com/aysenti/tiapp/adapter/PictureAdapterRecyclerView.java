@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.aysenti.tiapp.R;
 import com.aysenti.tiapp.model.Picture;
+import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -37,6 +38,8 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
         pictureViewHolder.nameCard.setText(picture.getUserName());
         pictureViewHolder.timeCard.setText(picture.getTime());
         pictureViewHolder.LikeNumberCard.setText(picture.getLike_number());
+        Picasso.get().load(picture.getPicture()).into(pictureViewHolder.pictureCard);
+
     }
 
     @Override
