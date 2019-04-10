@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/icons8_computer_16"
+        android:icon="@drawable/icons8_moon_phase_80"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/icons8_computer_16"
+        android:roundIcon="@drawable/icons8_moon_phase_80"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.ContainerActivity" />
