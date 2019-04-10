@@ -1,6 +1,7 @@
 package com.aysenti.tiapp.adapter;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -10,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.aysenti.tiapp.R;
 import com.aysenti.tiapp.model.Picture;
+import com.aysenti.tiapp.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.lang.reflect.Array;
@@ -39,6 +41,14 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
         pictureViewHolder.timeCard.setText(picture.getTime());
         pictureViewHolder.LikeNumberCard.setText(picture.getLike_number());
         Picasso.get().load(picture.getPicture()).into(pictureViewHolder.pictureCard);
+
+        pictureViewHolder.pictureCard.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(activity, PictureDetailActivity.class);
+                activity.startActivity(intent);
+            }
+        });
 
     }
 

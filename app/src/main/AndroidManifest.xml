@@ -11,7 +11,6 @@
         android:roundIcon="@drawable/icons8_computer_16"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.PictureDetailActivity"></activity>
         <activity android:name=".view.ContainerActivity" />
         <activity
             android:name=".TestActivity"
@@ -30,6 +29,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.PictureDetailActivity"
+            android:parentActivityName=".view.ContainerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.ContainerActivity" />
         </activity>
     </application>
 
