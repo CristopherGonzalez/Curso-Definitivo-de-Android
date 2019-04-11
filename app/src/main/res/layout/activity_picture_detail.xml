@@ -9,9 +9,11 @@
     tools:context=".view.PictureDetailActivity">
 
     <android.support.design.widget.AppBarLayout
-    android:layout_width="match_parent"
-    android:layout_height="@dimen/dimen_256dp"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        android:layout_width="match_parent"
+        android:id="@+id/appBar"
+        android:fitsSystemWindows="true"
+        android:layout_height="@dimen/dimen_256dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/collapsing_toolbar"
@@ -113,5 +115,15 @@
         </LinearLayout>
 
     </android.support.v4.widget.NestedScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchorGravity="bottom|end"
+        android:layout_margin="@dimen/dimen_16dp"
+        app:srcCompat="@drawable/icons8_ok_hand_48"
+        app:layout_anchor="@+id/appBar"/>
+
 
 </android.support.design.widget.CoordinatorLayout>
