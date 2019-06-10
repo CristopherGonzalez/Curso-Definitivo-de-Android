@@ -53,7 +53,7 @@ public class PictureAdapterRecyclerView  extends RecyclerView.Adapter<PictureAda
 
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
                     Explode explode = new Explode();
-                    explode.setDuration(2000);
+                    explode.setDuration(1000);
                     activity.getWindow().setExitTransition(explode);
                     activity.startActivity(intent,
                             ActivityOptionsCompat.makeSceneTransitionAnimation(activity, v,activity.getString(R.string.transition_image)).toBundle());
